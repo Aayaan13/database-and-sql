@@ -1,0 +1,170 @@
+Month 4 — Weekly Plan
+
+📅 Theme: Production-ready projects, system design mastery, portfolio building, and interview prep.
+📍 Goal: By the end of Month 4, you have 3–4 top-tier, production-quality projects, a polished portfolio, and the skills to ace DBMS/system design interviews at high-paying companies.
+
+Week 1 — Enterprise-Grade Project 1 (High-Scale E-Commerce DB)
+
+Scope:
+
+OLTP-focused system with millions of transactions.
+
+Must handle:
+
+Complex product catalog.
+
+Inventory management.
+
+Real-time order tracking.
+
+Customer analytics dashboard.
+
+Tasks:
+
+Design
+
+Draw ERD.
+
+Normalize to BCNF.
+
+Decide on indexing strategy.
+
+Implementation
+
+PostgreSQL backend.
+
+REST API (Node.js / Python Flask).
+
+Realistic sample data (1M+ rows).
+
+Optimization
+
+Query optimization with EXPLAIN ANALYZE.
+
+Use caching (Redis).
+
+Create materialized views for reporting.
+
+Deliverable:
+
+Fully documented GitHub repo.
+
+Short Loom video explaining design & performance results.
+
+Week 2 — Enterprise-Grade Project 2 (Real-Time Analytics Pipeline)
+
+Scope:
+
+Streaming ingestion + real-time dashboards.
+
+Example: Tracking live sales or website activity.
+
+Tasks:
+
+Design
+
+Data flow: Kafka → PostgreSQL/ClickHouse → Dashboard.
+
+Choose schema for OLAP.
+
+Implementation
+
+Kafka for streaming data.
+
+PostgreSQL or ClickHouse for storage.
+
+Grafana/Metabase/Tableau for visualization.
+
+Performance
+
+Test query latency under load.
+
+Tune ingestion speed.
+
+Deliverable:
+
+Working dashboard with live metrics.
+
+GitHub repo with setup instructions.
+
+Week 3 — System Design & Distributed DB Scenarios
+
+Scope:
+
+Simulate FAANG-style interviews.
+
+Study Topics:
+
+Design a scalable social media feed (DB focus).
+
+Multi-region database replication for low-latency access.
+
+Payment processing DB with strong consistency.
+
+Global leaderboard system with caching.
+
+Practice:
+
+Use whiteboard-style diagrams (draw.io, Excalidraw).
+
+Time yourself: 45–60 minutes per design.
+
+Discuss trade-offs:
+
+SQL vs NoSQL choice.
+
+Sharding key selection.
+
+Indexing & caching.
+
+Consistency vs availability.
+
+Deliverable:
+
+5–6 documented system design solutions (with diagrams).
+
+Confidently present them aloud (mock interview style).
+
+Week 4 — Portfolio Polishing & Interview Prep
+
+Tasks:
+
+Portfolio Cleanup
+
+3–4 polished GitHub repos (well-structured, with README, ERDs, query samples, screenshots).
+
+LinkedIn profile updated with DBMS projects.
+
+Personal website/Notion portfolio with project summaries.
+
+Interview Drills
+
+SQL coding mock interviews (LeetCode + HackerRank).
+
+System design mock interviews (Pramp or peers).
+
+Behavioral questions (STAR method).
+
+Final Touches
+
+Prepare case study PDF for each project:
+
+Problem → Solution → Architecture → Performance results.
+
+Deliverable:
+
+Interview-ready portfolio.
+
+10+ mock interviews completed.
+
+Ready answers for “Tell me about a database you designed.”
+
+End of Month 4 Deliverables
+
+3–4 enterprise-grade projects (GitHub + documentation).
+
+System design solutions repository.
+
+Polished portfolio & LinkedIn profile.
+
+Mock interview experience for both SQL & system design.

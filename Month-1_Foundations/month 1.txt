@@ -1,0 +1,143 @@
+Week 1 — Relational Model & ER Diagrams
+
+Reading:
+
+Database System Concepts (Silberschatz et al.)
+
+Ch. 1: Introduction
+
+Ch. 2: Relational Model
+
+Ch. 3: Entity–Relationship Model
+
+Watch: Stanford Databases lectures 1–3.
+
+Coding/Practice:
+
+Install PostgreSQL/MySQL locally.
+
+Create a “Library Management System” ER diagram (use draw.io or dbdiagram.io).
+
+Convert ER diagram → relational schema.
+
+Implement schema with CREATE TABLE, keys, constraints.
+
+Milestone:
+
+You can explain Codd’s 12 rules from memory.
+
+You can draw ER diagrams for small systems (school, store, etc.).
+
+You’ve created your first SQL database locally.
+
+Week 2 — SQL Fundamentals
+
+Reading:
+
+Silberschatz Ch. 4: SQL (up to joins).
+
+PostgreSQL documentation: Basic SQL syntax.
+
+Learn query execution order (FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT).
+
+Coding/Practice:
+
+Create 10–15 tables with realistic data (use mockaroo.com).
+
+Write SQL for:
+
+Simple SELECT, WHERE filters.
+
+Sorting, limiting.
+
+INNER, LEFT, RIGHT, FULL joins.
+
+GROUP BY with aggregates.
+
+HackerRank SQL Basic → Intermediate problems.
+
+Milestone:
+
+Can write joins without looking up syntax.
+
+You know execution order well enough to explain to someone else.
+
+Week 3 — Advanced SQL
+
+Reading:
+
+Silberschatz Ch. 5: Advanced SQL.
+
+CTEs, subqueries, RANK, DENSE_RANK, NTILE.
+
+Stored procedures, functions, triggers overview.
+
+Coding/Practice:
+
+Build E-Commerce Analytics DB:
+
+Tables: Users, Orders, Products, Reviews, Payments.
+
+Write:
+
+Top N products by revenue.
+
+Repeat customers in last 6 months.
+
+Rolling 7-day sales.
+
+Orders with late delivery alerts (trigger).
+
+LeetCode SQL Easy + Medium problems.
+
+Milestone:
+
+You can handle real-world analytics queries.
+
+You’ve written your first stored procedure and trigger.
+
+Week 4 — Normalization & Database Design
+
+Reading:
+
+Silberschatz Ch. 7: Database Design and Normalization.
+
+Functional dependencies.
+
+1NF → BCNF → 4NF (examples and pitfalls).
+
+Coding/Practice:
+
+Take your Week 3 e-commerce DB and:
+
+Identify functional dependencies.
+
+Normalize to BCNF.
+
+Add indexes for optimization.
+
+Implement denormalization for reporting speed (materialized views).
+
+Milestone:
+
+You can normalize and denormalize by choice, not habit.
+
+You’ve redesigned an existing DB for better performance.
+
+End of Month 1 Deliverables
+
+Two projects:
+
+Library Management System (Week 1–2).
+
+E-Commerce Analytics DB (Week 3–4).
+
+50+ SQL problems solved (LeetCode/HackerRank).
+
+Can explain:
+
+Codd’s rules, ER modeling, normalization.
+
+Difference between logical design and physical implementation.
+
+How to optimize a basic query with indexes.

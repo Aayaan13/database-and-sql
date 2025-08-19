@@ -1,0 +1,158 @@
+Month 3 — Weekly Plan
+
+📅 Theme: NoSQL, distributed databases, sharding, replication, CAP theorem, and data warehousing.
+📍 Goal: By the end of Month 3, you can design and implement scalable, fault-tolerant, multi-database architectures.
+
+Week 1 — NoSQL & Polyglot Persistence
+
+Reading:
+
+Book: Designing Data-Intensive Applications (Ch. 1–3).
+
+MongoDB docs → Core concepts & CRUD.
+
+Redis docs → Data types and persistence.
+
+Cassandra docs → Data modeling basics.
+
+Coding/Practice:
+
+Install MongoDB, Redis, Cassandra locally (or use Docker).
+
+Implement:
+
+MongoDB → E-Commerce product catalog.
+
+Redis → User session caching.
+
+Cassandra → Large-scale order history.
+
+Compare:
+
+Query flexibility.
+
+Consistency model.
+
+Performance.
+
+Milestone:
+
+You can choose the right NoSQL type for a problem.
+
+You understand when to mix SQL & NoSQL in one system.
+
+Week 2 — CAP Theorem & Distributed DB Basics
+
+Reading:
+
+Brewer’s CAP Theorem original paper (summary version).
+
+Google Spanner whitepaper (read abstract + architecture).
+
+DynamoDB paper (Amazon).
+
+Coding/Practice:
+
+Create a distributed system simulation:
+
+Use Docker to run multiple DB instances.
+
+Implement replication and simulate node failures.
+
+Test:
+
+Strong vs. eventual consistency.
+
+Partitioning effect on availability.
+
+Milestone:
+
+You can explain CAP theorem trade-offs with real examples.
+
+You can simulate data consistency issues and fix them.
+
+Week 3 — Sharding, Replication, & Consensus
+
+Reading:
+
+MySQL manual → Horizontal partitioning (sharding).
+
+MongoDB → Sharding architecture.
+
+Raft consensus algorithm (raft.github.io animation).
+
+Coding/Practice:
+
+Implement sharding:
+
+MongoDB → shard by user_id.
+
+PostgreSQL → partition by date range.
+
+Implement replication:
+
+Master-slave replication in PostgreSQL.
+
+MongoDB replica sets.
+
+Simulate:
+
+Leader election.
+
+Failover recovery.
+
+Milestone:
+
+You can design sharding keys that balance load.
+
+You can recover from node failure without data loss.
+
+Week 4 — Data Warehousing & OLAP
+
+Reading:
+
+Kimball’s The Data Warehouse Toolkit (Star & Snowflake schemas).
+
+Apache Hive & Presto basics.
+
+Google BigQuery docs → Query optimization.
+
+Coding/Practice:
+
+Design a Star schema for an analytics platform.
+
+Load data into:
+
+PostgreSQL (as OLAP simulation).
+
+BigQuery or Snowflake (free tier).
+
+Run analytical queries:
+
+Top 10 customers by lifetime value.
+
+Month-over-month growth.
+
+Cohort analysis.
+
+Optimize:
+
+Use columnar storage (Parquet).
+
+Partition & cluster tables.
+
+Milestone:
+
+You can design & query large analytical datasets efficiently.
+
+You can explain OLTP vs OLAP trade-offs clearly.
+
+End of Month 3 Deliverables
+
+Three small NoSQL projects (MongoDB, Redis, Cassandra).
+
+CAP theorem simulation showing trade-offs.
+
+Sharded & replicated DB setup (with docs).
+
+Data warehouse project with star schema + OLAP queries.

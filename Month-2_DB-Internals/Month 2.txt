@@ -1,0 +1,142 @@
+Month 2 — Weekly Plan
+
+📅 Theme: DBMS internals, query optimization, indexing, transactions, storage architecture.
+📍 Goal: By the end of Month 2, you can optimize queries, tune indexes, understand database internals, and debug performance bottlenecks like a pro.
+
+Week 1 — Query Processing & Optimization
+
+Reading:
+
+Database System Concepts (Silberschatz et al.)
+
+Ch. 13: Query Processing
+
+Ch. 14: Query Optimization
+
+PostgreSQL docs → EXPLAIN and EXPLAIN ANALYZE.
+
+Coding/Practice:
+
+Take your E-Commerce DB from Month 1:
+
+Run all queries with EXPLAIN ANALYZE.
+
+Compare execution plans for different query structures.
+
+Rewrite queries for lower cost.
+
+Test:
+
+Filtering before joining vs. joining before filtering.
+
+Using indexes vs. no indexes.
+
+Milestone:
+
+You can read execution plans without guessing.
+
+You can reduce query execution time by 2–5× on real data.
+
+Week 2 — Indexing Deep Dive
+
+Reading:
+
+Silberschatz Ch. 11: Indexing and Hashing.
+
+PostgreSQL docs → Index Types.
+
+“Use The Index, Luke” (online resource).
+
+Coding/Practice:
+
+Experiment with:
+
+B-Tree indexes.
+
+Hash indexes.
+
+Bitmap indexes.
+
+Multi-column indexes.
+
+Covering indexes.
+
+Measure:
+
+Query performance before/after indexing.
+
+Impact of index selectivity.
+
+Build a test DB with 1M+ rows (generate with Python or pgbench).
+
+Milestone:
+
+You can choose the right index type for any query pattern.
+
+You can justify indexing trade-offs (storage cost vs. speed).
+
+Week 3 — Transactions & Concurrency
+
+Reading:
+
+Silberschatz Ch. 15–16: Transactions, Concurrency Control.
+
+PostgreSQL docs → SET TRANSACTION ISOLATION LEVEL.
+
+Read about MVCC (Multi-Version Concurrency Control).
+
+Coding/Practice:
+
+Simulate:
+
+Dirty reads, non-repeatable reads, phantom reads.
+
+Deadlocks.
+
+Implement bank transfer simulation with concurrent transactions.
+
+Use different isolation levels (READ COMMITTED, REPEATABLE READ, SERIALIZABLE) and measure impact.
+
+Milestone:
+
+You can explain ACID deeply (with real transaction logs).
+
+You can debug deadlocks and fix them.
+
+Week 4 — Storage & File Organization
+
+Reading:
+
+Silberschatz Ch. 10: Storage and File Structure.
+
+PostgreSQL internals: Heap files, pages, buffer pool.
+
+Write-Ahead Logging (WAL) basics.
+
+Coding/Practice:
+
+Create experiments for:
+
+Heap-organized tables vs. clustered indexes.
+
+Page fill factor effects.
+
+VACUUM & ANALYZE performance impact.
+
+Simulate crash recovery with WAL.
+
+Milestone:
+
+You can explain how a row is stored on disk in PostgreSQL.
+
+You know exactly what happens when you run INSERT → COMMIT.
+
+End of Month 2 Deliverables
+
+Optimized version of Month 1 projects (with EXPLAIN plans documented).
+
+Indexing strategy guide you wrote yourself.
+
+Bank transaction concurrency simulation (with logs).
+
+Storage experiment results (clustered vs. heap, fill factor, WAL).

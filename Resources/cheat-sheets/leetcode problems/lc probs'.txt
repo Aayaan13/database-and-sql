@@ -1,0 +1,97 @@
+📅 Month 1 — Core SQL Foundations
+
+Focus: Joins, Aggregates, Subqueries, Window basics.
+
+Easy Joins / Filtering
+
+175. Combine Two Tables
+
+Second Highest Salary
+
+Employees Earning More Than Their Managers
+
+Duplicate Emails
+
+Customers Who Never Order
+
+Delete Duplicate Emails
+
+Aggregation + Grouping
+
+184. Department Highest Salary
+
+Rising Temperature
+
+Game Play Analysis I
+
+Game Play Analysis III
+
+Game Play Analysis IV
+
+Window Functions (Month 1–2 bridge)
+
+178. Rank Scores
+
+Consecutive Numbers
+
+Trips and Users
+
+📅 Month 2 — Query Plans, Optimization, Transactions
+
+Focus: Window functions, CTEs, Subqueries, correlated queries.
+
+Human Traffic of Stadium
+
+Friend Requests II: Who Has the Most Friends
+
+Exchange Seats
+
+Customers Who Bought All Products
+
+Product Sales Analysis III
+
+Article Views I
+
+Last Person to Fit in the Bus
+
+Restaurant Growth
+
+(Here, aim to EXPLAIN your queries in PostgreSQL/MySQL locally — tie practice with query execution plans.)
+
+📅 Month 3 — Advanced DBMS & Analytics
+
+Focus: Recursive queries, harder CTEs, multiple joins (like star schema analytics).
+
+Get the Second Most Recent Activity
+
+Capital Gain/Loss
+
+Evaluate Boolean Expression
+
+Average Time of Process per Machine
+
+Daily Leads and Partners
+
+Find Followers Count
+
+Find Total Time Spent by Each Employee
+
+Recyclable and Low Fat Products
+
+📅 Month 4 — Expert Level & Projects
+
+Focus: Query design challenges, optimization, large schema joins, analytical queries.
+
+Primary Department for Each Employee
+
+Calculate Special Bonus
+
+Confirmation Rate
+
+Employees Whose Manager Left the Company
+
+Order Two Columns Independently
+
+DB-specific trickier queries
+
+By end of Month 4, you should redo SQL50 quickly (<1 min per query) + solve all advanced free problems. That makes your profile solid.
