@@ -1,0 +1,5 @@
+An index is a data structure (usually a B-Tree in MySQL) that makes searching super fast.
+
+Without an index: MySQL looks at every row → called full table scan.
+
+With an index: MySQL uses the index tree to jump directly to the matching rows.

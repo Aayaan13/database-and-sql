@@ -1,0 +1,37 @@
+1. ENUM
+
+ENUM is a data type in MySQL that lets you define a list of allowed string values for a column.
+
+Example:
+
+CREATE TABLE members (
+    member_id INT AUTO_INCREMENT PRIMARY KEY,
+    membership_type ENUM('Basic', 'Premium', 'VIP') NOT NULL
+);
+
+
+Here, membership_type can only be 'Basic', 'Premium', or 'VIP'.
+
+If you try to insert something else, MySQL will throw an error.
+
+🔑 How it works internally:
+
+MySQL stores ENUM values as numbers under the hood. For example:
+
+'Basic' → 1
+
+'Premium' → 2
+
+'VIP' → 3
+
+That means comparisons (WHERE membership_type = 'Premium') are actually very fast.
+
+✅ When to use:
+
+When you have a fixed set of options (like gender, status, membership type).
+
+Keeps your data clean & consistent.
+
+⚠️ Downside:
+
+Adding new values later requires an ALTER TABLE, which can be slow if the table is huge.

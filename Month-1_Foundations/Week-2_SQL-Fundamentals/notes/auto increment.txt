@@ -1,0 +1,31 @@
+2. AUTO_INCREMENT
+
+Used for primary keys or IDs.
+
+It tells MySQL: "Whenever I insert a new row, automatically give this column the next available number."
+
+Example:
+
+CREATE TABLE trainers (
+    trainer_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+
+If you insert two trainers:
+
+INSERT INTO trainers (name) VALUES ('John');
+INSERT INTO trainers (name) VALUES ('Alice');
+
+
+MySQL will automatically assign:
+
+John → trainer_id = 1
+
+Alice → trainer_id = 2
+
+✅ Why useful:
+
+Ensures every row has a unique ID without you manually handling it.
+
+Great for relationships between tables (FOREIGN KEY references).
